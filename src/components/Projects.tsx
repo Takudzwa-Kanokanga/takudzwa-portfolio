@@ -4,22 +4,22 @@ import { Button } from "@/components/ui/button";
 const Projects = () => {
   const projects = [
     {
-      title: "Urban Vogue Website",
+      title: "DreamDay Wedding Planner App",
       description:
         "Converted a Figma design into a fully responsive fashion website using HTML, CSS, and JavaScript. Integrated interactive product cards, a countdown timer, and an image slider.",
       tags: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-      liveUrl: "#",
+      liveUrl: "https://dream-day-wedding-planner-app.vercel.app/",
       githubUrl: "#",
-      image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=500&fit=crop",
+      image: "https://dream-day-wedding-planner-app.vercel.app/",
     },
     {
-      title: "Flapping Bird Game",
+      title: "LocalPro - Zimbabwe's Local Skills Marketplace",
       description:
         "Developed a JavaScript-based game with responsive canvas animations. Focused on smooth user interactions, debugging, and performance optimization.",
       tags: ["JavaScript", "Canvas API", "Game Development"],
-      liveUrl: "#",
+      liveUrl: "https://zimbaskill-connect.vercel.app/",
       githubUrl: "#",
-      image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=500&fit=crop",
+      image: "https://zimbaskill-connect.vercel.app/",
     },
     {
       title: "Personal Portfolio",
@@ -37,7 +37,7 @@ const Projects = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16 animate-in fade-in slide-in-from-bottom-4">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Featured <span className="gradient-primary bg-clip-text text-transparent">Projects</span>
+            Featured <span className="gradient-primary bg-clip-text text-white">Projects</span>
           </h2>
           <div className="w-20 h-1 gradient-primary mx-auto rounded-full mb-4" />
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">

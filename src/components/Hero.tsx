@@ -30,18 +30,18 @@ const Hero = () => {
           
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
             Hi, I'm{" "}
-            <span className="gradient-primary bg-clip-text text-transparent">
+            <span className="gradient-primary bg-clip-text text-white">
               Takudzwa
             </span>
           </h1>
           
           <h2 className="text-2xl md:text-4xl font-semibold text-muted-foreground">
-            A Junior Software Developer focused on Frontend Development
+            A Software Developer experienced in both Frontend and Backend Development
           </h2>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            I build clean, responsive, and user-friendly interfaces using React.js,
-            JavaScript, HTML, CSS, and Python.
+            I build clean, responsive, and user-friendly web and mobile applications using React.js,
+            JavaScript, HTML, CSS, Node.js and Python.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">

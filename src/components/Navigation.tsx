@@ -27,7 +27,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           <button
             onClick={() => scrollToSection("hero")}
-            className="text-xl font-bold gradient-primary bg-clip-text text-transparent hover:opacity-80 transition-smooth"
+            className="text-xl font-bold gradient-primary bg-clip-text text-white hover:opacity-80 transition-smooth"
           >
             TK
           </button>

@@ -24,7 +24,7 @@ const About = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16 animate-in fade-in slide-in-from-bottom-4">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            About <span className="gradient-primary bg-clip-text text-transparent">Me</span>
+            About <span className="gradient-primary bg-clip-text text-white">Me</span>
           </h2>
           <div className="w-20 h-1 gradient-primary mx-auto rounded-full" />
         </div>
@@ -32,8 +32,8 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-in fade-in slide-in-from-left duration-700">
             <p className="text-lg leading-relaxed text-muted-foreground">
-              I am a passionate junior software developer with a strong focus on{" "}
-              <span className="text-primary font-semibold">frontend development</span>. 
+              I am a passionate software developer with strong experience in{" "}
+              <span className="text-primary font-semibold">frontend and backend development</span>. 
               I enjoy transforming ideas and designs into clean, functional, and responsive 
               interfaces that deliver great user experiences.
             </p>

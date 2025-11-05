@@ -17,7 +17,7 @@ const Skills = () => {
     {
       category: "Backend/Other",
       icon: Database,
-      items: ["Python", "Basic APIs", "Git & GitHub"],
+      items: ["Node.js", "Python", "Git & GitHub"],
       color: "from-green-500 to-emerald-500",
     },
     {
@@ -45,7 +45,7 @@ const Skills = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16 animate-in fade-in slide-in-from-bottom-4">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Skills & <span className="gradient-primary bg-clip-text text-transparent">Expertise</span>
+            Skills & <span className="gradient-primary bg-clip-text text-white">Expertise</span>
           </h2>
           <div className="w-20 h-1 gradient-primary mx-auto rounded-full mb-4" />
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">

@@ -1,4 +1,4 @@
-# Welcome to your Takudzwa Kanokanga's Portfolio
+# Welcome to Takudzwa Kanokanga's Portfolio
 
 ## Project info
 

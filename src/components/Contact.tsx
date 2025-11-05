@@ -51,20 +51,20 @@ const Contact = () => {
     {
       name: "Email",
       icon: Mail,
-      url: "mailto:your.email@example.com",
-      label: "your.email@example.com",
+      url: "mailto:kanokangatakudzwa@gmail.com",
+      label: "kanokangatakudzwa.gmail.com",
     },
     {
       name: "LinkedIn",
       icon: Linkedin,
       url: "https://linkedin.com/in/yourprofile",
-      label: "LinkedIn Profile",
+      label: "Takudzwa Kanokanga",
     },
     {
       name: "GitHub",
       icon: Github,
-      url: "https://github.com/yourusername",
-      label: "GitHub Profile",
+      url: "https://github.com/@Takudzwa88",
+      label: "Takudzwa88",
     },
   ];
 
@@ -73,7 +73,7 @@ const Contact = () => {
       <div className="container mx-auto max-w-4xl">
         <div className="text-center mb-16 animate-in fade-in slide-in-from-bottom-4">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Get In <span className="gradient-primary bg-clip-text text-transparent">Touch</span>
+            Get In <span className="gradient-primary bg-clip-text text-white">Touch</span>
           </h2>
           <div className="w-20 h-1 gradient-primary mx-auto rounded-full mb-4" />
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
