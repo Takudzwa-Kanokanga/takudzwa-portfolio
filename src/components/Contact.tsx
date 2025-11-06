@@ -52,19 +52,19 @@ const Contact = () => {
       name: "Email",
       icon: Mail,
       url: "mailto:kanokangatakudzwa@gmail.com",
-      label: "kanokangatakudzwa.gmail.com",
+      label: "kanokangatakudzwa@gmail.com",
     },
     {
       name: "LinkedIn",
       icon: Linkedin,
-      url: "https://linkedin.com/in/yourprofile",
+      url: "https://www.linkedin.com/in/takudzwa-kanokanga-645aa2346/",
       label: "Takudzwa Kanokanga",
     },
     {
       name: "GitHub",
       icon: Github,
-      url: "https://github.com/@Takudzwa88",
-      label: "Takudzwa88",
+      url: "https://github.com/Takudzwa-Kanokanga",
+      label: "Takudzwa-Kanokanga",
     },
   ];
 

@@ -6,29 +6,29 @@ const Projects = () => {
     {
       title: "DreamDay Wedding Planner App",
       description:
-        "Converted a Figma design into a fully responsive fashion website using HTML, CSS, and JavaScript. Integrated interactive product cards, a countdown timer, and an image slider.",
-      tags: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+        "Developed a responsive wedding planner web app. Implemented dynamic budget tracking, guest list management, and interactive planning tools. Designed with a clean, intuitive UI to streamline the wedding preparation experience.",
+      tags: ["React.js", "Tailwind CSS", "Responsive Design"],
       liveUrl: "https://dream-day-wedding-planner-app.vercel.app/",
-      githubUrl: "#",
-      image: "https://dream-day-wedding-planner-app.vercel.app/",
+      githubUrl: "https://github.com/Takudzwa-Kanokanga/DreamDay-wedding-planner-app.git",
+      image: "https://res.cloudinary.com/djfxfz6jl/image/upload/v1762422786/dream-day-wedding-planner-app-vercel-app-1024x768desktop-d5c9ea_adoy0o.jpg",
     },
     {
       title: "LocalPro - Zimbabwe's Local Skills Marketplace",
       description:
-        "Developed a JavaScript-based game with responsive canvas animations. Focused on smooth user interactions, debugging, and performance optimization.",
-      tags: ["JavaScript", "Canvas API", "Game Development"],
+        "LocalPro connects you with trusted artisans and service providers near you — from builders and plumbers to tutors and designers. The app makes it easy to find, compare, and hire skilled professionals for any job.",
+      tags: ["Figma to Code", "Marketplace App", "Community App", "Local Services"],
       liveUrl: "https://zimbaskill-connect.vercel.app/",
-      githubUrl: "#",
-      image: "https://zimbaskill-connect.vercel.app/",
+      githubUrl: "https://github.com/Takudzwa-Kanokanga/LocalPro---Zimbabwe-s-Local-Skills-Marketplace.git",
+      image: "https://res.cloudinary.com/djfxfz6jl/image/upload/v1762423102/zimbaskill-connect-vercel-app-1024x768desktop-e21c28_uruanh.jpg",
     },
     {
-      title: "Personal Portfolio",
+      title: "TaskFlow",
       description:
-        "Designed and developed a responsive developer portfolio with modern UI, smooth navigation, and SEO-friendly structure. Built with React and Tailwind CSS.",
-      tags: ["React.js", "Tailwind CSS", "TypeScript", "Responsive"],
-      liveUrl: "#",
-      githubUrl: "#",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop",
+        "TaskFlow is a sleek and intuitive to-do app built with TypeScript, React.js, and Tailwind CSS. It helps you stay organized by managing tasks efficiently, setting priorities, and tracking progress — all within a clean, responsive interface designed for focus and productivity.",
+      tags: ["To Do App", "Productivity App", "ProjectShowcase", "UI/UX Design"],
+      liveUrl: "https://blue-aura-tasks.vercel.app/",
+      githubUrl: "https://github.com/Takudzwa-Kanokanga/blue-aura-tasks.git",
+      image: "https://res.cloudinary.com/djfxfz6jl/image/upload/v1762423262/blue-aura-tasks-vercel-app-1024x768desktop-5d75d6_yofgr1.jpg",
     },
   ];
 
