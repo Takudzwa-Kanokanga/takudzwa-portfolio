@@ -22,7 +22,15 @@ const Navigation = () => {
   ];
 
   return (
-    <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[95%] md:w-[85%] bg-background/80 backdrop-blur-md border border-border/40 shadow-lg rounded-full px-6 py-3 transition-all duration-300">
+    <nav
+      className="
+        fixed top-4 left-1/2 -translate-x-1/2 z-50
+        w-[95%] md:w-[85%]
+        bg-background/80 backdrop-blur-md border border-border/40 shadow-lg
+        rounded-lg md:rounded-full
+        px-6 py-3 transition-all duration-300
+      "
+    >
       <div className="flex items-center justify-between">
         {/* Logo */}
         <button
@@ -49,7 +57,7 @@ const Navigation = () => {
         <Button
           variant="ghost"
           size="icon"
-          className="md:hidden rounded-full bg-secondary/30 hover:bg-secondary/50 transition-all"
+          className="md:hidden rounded-md bg-secondary/30 hover:bg-secondary/50 transition-all"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -63,7 +71,7 @@ const Navigation = () => {
             <button
               key={link.id}
               onClick={() => scrollToSection(link.id)}
-              className="w-full text-center py-2 text-foreground rounded-full hover:bg-secondary/30 transition-all font-medium"
+              className="w-full text-center py-2 text-foreground rounded-md hover:bg-secondary/30 transition-all font-medium"
             >
               {link.name}
             </button>
