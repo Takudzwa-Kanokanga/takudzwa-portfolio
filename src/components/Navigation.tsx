@@ -22,55 +22,54 @@ const Navigation = () => {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b shadow-soft">
-      <div className="container mx-auto px-4 py-4">
-        <div className="flex items-center justify-between">
-          <button
-            onClick={() => scrollToSection("hero")}
-            className="text-xl font-bold gradient-primary bg-clip-text text-white hover:opacity-80 transition-smooth"
-          >
-            TK
-          </button>
+    <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[95%] md:w-[85%] bg-background/80 backdrop-blur-md border border-border/40 shadow-lg rounded-full px-6 py-3 transition-all duration-300">
+      <div className="flex items-center justify-between">
+        {/* Logo */}
+        <button
+          onClick={() => scrollToSection("hero")}
+          className="text-2xl font-bold gradient-primary bg-clip-text text-white hover:opacity-90 transition-smooth"
+        >
+          TK
+        </button>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
-            {navLinks.map((link) => (
-              <button
-                key={link.id}
-                onClick={() => scrollToSection(link.id)}
-                className="text-foreground hover:text-primary transition-smooth font-medium"
-              >
-                {link.name}
-              </button>
-            ))}
-          </div>
-
-          {/* Mobile Menu Button */}
-          <Button
-            variant="ghost"
-            size="icon"
-            className="md:hidden"
-            onClick={() => setIsOpen(!isOpen)}
-          >
-            {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-          </Button>
+        {/* Desktop Navigation */}
+        <div className="hidden md:flex items-center gap-8">
+          {navLinks.map((link) => (
+            <button
+              key={link.id}
+              onClick={() => scrollToSection(link.id)}
+              className="relative text-foreground hover:text-primary font-medium transition-all duration-300 after:content-[''] after:absolute after:w-0 after:h-[2px] after:bg-primary after:left-0 after:-bottom-1 hover:after:w-full after:transition-all"
+            >
+              {link.name}
+            </button>
+          ))}
         </div>
 
-        {/* Mobile Navigation */}
-        {isOpen && (
-          <div className="md:hidden mt-4 pb-4 space-y-4 animate-in fade-in slide-in-from-top-2">
-            {navLinks.map((link) => (
-              <button
-                key={link.id}
-                onClick={() => scrollToSection(link.id)}
-                className="block w-full text-left px-4 py-2 rounded-lg hover:bg-secondary transition-smooth font-medium"
-              >
-                {link.name}
-              </button>
-            ))}
-          </div>
-        )}
+        {/* Mobile Menu Button */}
+        <Button
+          variant="ghost"
+          size="icon"
+          className="md:hidden rounded-full bg-secondary/30 hover:bg-secondary/50 transition-all"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+        </Button>
       </div>
+
+      {/* Mobile Navigation */}
+      {isOpen && (
+        <div className="md:hidden mt-4 flex flex-col items-center space-y-2 animate-in fade-in slide-in-from-top-2">
+          {navLinks.map((link) => (
+            <button
+              key={link.id}
+              onClick={() => scrollToSection(link.id)}
+              className="w-full text-center py-2 text-foreground rounded-full hover:bg-secondary/30 transition-all font-medium"
+            >
+              {link.name}
+            </button>
+          ))}
+        </div>
+      )}
     </nav>
   );
 };
