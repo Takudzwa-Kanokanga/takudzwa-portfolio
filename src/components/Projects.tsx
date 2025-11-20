@@ -12,6 +12,15 @@ const Projects = () => {
       githubUrl: "https://github.com/Takudzwa-Kanokanga/DreamDay-wedding-planner-app.git",
       image: "https://res.cloudinary.com/djfxfz6jl/image/upload/v1762422786/dream-day-wedding-planner-app-vercel-app-1024x768desktop-d5c9ea_adoy0o.jpg",
     },
+        {
+      title: "Explore Zimbabwe",
+      description:
+        "Explore Zimbabwe is a travel companion app designed to make discovering Zimbabwe easier, smarter, and more enjoyable for tourists. The app helps visitors find top destinations, plan trips, book activities, locate nearby services, and navigate safely across the country.",
+      tags: ["Explore Zimbabwe", "Tourism App", "Travel Guide", "African Tourism"],
+      liveUrl: "https://explorezimbabwe.vercel.app/",
+      githubUrl: "https://github.com/Takudzwa-Kanokanga/zimbabwe-explorer.git",
+      image: "https://res.cloudinary.com/djfxfz6jl/image/upload/v1763658574/Screenshot_458_e4dpyu.png",
+    },
     {
       title: "LocalPro - Zimbabwe's Local Skills Marketplace",
       description:
