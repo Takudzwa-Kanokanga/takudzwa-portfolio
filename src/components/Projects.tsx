@@ -30,6 +30,15 @@ const Projects = () => {
       githubUrl: "https://github.com/Takudzwa-Kanokanga/LocalPro---Zimbabwe-s-Local-Skills-Marketplace.git",
       image: "https://res.cloudinary.com/djfxfz6jl/image/upload/v1762423102/zimbaskill-connect-vercel-app-1024x768desktop-e21c28_uruanh.jpg",
     },
+        {
+      title: "Rent Alert App",
+      description:
+        "Rent Alert is your trusted companion for finding verified rental homes with ease. Designed to eliminate the stress of house hunting, Rent Alert connects users to a curated list of properties that are thoroughly checked for authenticity.",
+      tags: ["Real Estate App", "Home Hunting", "Trusted Rentals", "Easy Renting"],
+      liveUrl: "https://rentalert-verified.vercel.app/",
+      githubUrl: "https://github.com/Takudzwa-Kanokanga/rentalert-verified.git",
+      image: "https://res.cloudinary.com/djfxfz6jl/image/upload/v1763879286/Rent_Alert_App_ftrigd.png",
+    },
     {
       title: "TaskFlow",
       description:
