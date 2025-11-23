@@ -4,9 +4,9 @@ import { Button } from "@/components/ui/button";
 const Projects = () => {
   const projects = [
     {
-      title: "DreamDay Wedding Planner App",
+      title: "DreamDay Wedding Planner",
       description:
-        "Developed a responsive wedding planner web app. Implemented dynamic budget tracking, guest list management, and interactive planning tools. Designed with a clean, intuitive UI to streamline the wedding preparation experience.",
+        "Developed a responsive wedding planner web app. Implemented dynamic budget tracking, guest list management, and interactive planning tools.",
       tags: ["React.js", "Tailwind CSS", "Responsive Design"],
       liveUrl: "https://dream-day-wedding-planner-app.vercel.app/",
       githubUrl: "https://github.com/Takudzwa-Kanokanga/DreamDay-wedding-planner-app.git",
@@ -15,7 +15,7 @@ const Projects = () => {
         {
       title: "Explore Zimbabwe",
       description:
-        "Explore Zimbabwe is a travel companion app designed to make discovering Zimbabwe easier, smarter, and more enjoyable for tourists. The app helps visitors find top destinations, plan trips, book activities, locate nearby services, and navigate safely across the country.",
+        "Explore Zimbabwe is a travel companion app designed to make discovering Zimbabwe easier, smarter, and more enjoyable for tourists.",
       tags: ["Explore Zimbabwe", "Tourism App", "Travel Guide", "African Tourism"],
       liveUrl: "https://explorezimbabwe.vercel.app/",
       githubUrl: "https://github.com/Takudzwa-Kanokanga/zimbabwe-explorer.git",
@@ -24,7 +24,7 @@ const Projects = () => {
     {
       title: "LocalPro - Zimbabwe's Local Skills Marketplace",
       description:
-        "LocalPro connects you with trusted artisans and service providers near you — from builders and plumbers to tutors and designers. The app makes it easy to find, compare, and hire skilled professionals for any job.",
+        "LocalPro connects you with trusted service providers near you. The app makes it easy to find, compare, and hire skilled professionals for any job.",
       tags: ["Figma to Code", "Marketplace App", "Community App", "Local Services"],
       liveUrl: "https://zimbaskill-connect.vercel.app/",
       githubUrl: "https://github.com/Takudzwa-Kanokanga/LocalPro---Zimbabwe-s-Local-Skills-Marketplace.git",
@@ -33,7 +33,7 @@ const Projects = () => {
     {
       title: "TaskFlow",
       description:
-        "TaskFlow is a sleek and intuitive to-do app built with TypeScript, React.js, and Tailwind CSS. It helps you stay organized by managing tasks efficiently, setting priorities, and tracking progress — all within a clean, responsive interface designed for focus and productivity.",
+        "TaskFlow is a sleek and intuitive to-do app built with TypeScript, React.js, and Tailwind CSS. It helps you stay organized by managing tasks efficiently, setting priorities, and tracking progress.",
       tags: ["To Do App", "Productivity App", "ProjectShowcase", "UI/UX Design"],
       liveUrl: "https://blue-aura-tasks.vercel.app/",
       githubUrl: "https://github.com/Takudzwa-Kanokanga/blue-aura-tasks.git",

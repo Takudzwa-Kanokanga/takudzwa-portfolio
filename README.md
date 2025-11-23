@@ -2,6 +2,7 @@
 
 ## Project info
 
+**URL**: https://takudzwa-portfolio-ecru.vercel.app/
 
 ## How can I edit this code?
 
